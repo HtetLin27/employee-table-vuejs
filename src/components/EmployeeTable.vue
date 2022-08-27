@@ -1,19 +1,20 @@
 <template>
   <table >
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Employee</th>
+    <th>Location</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Employee Code</th>
+    <th>Custom Tags</th>
   </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+  <tr v-for = "item in employeelist" :key = "item.id">
+    <td>{{item.name}}</td>
+    <td>{{item.email}}</td>
+    <td>{{item.office}}</td>
+    <td>{{item.department}}</td>
+    <td>{{item.empCode}}</td>
+    <td>{{item.position}}</td>
   </tr>
 </table>
 
@@ -21,14 +22,22 @@
 
 <script>
 
+import axios from 'axios'
 export default {
   name: "EmployeeTable",
+  data(){
+    return{
+      employeelist:[]
+    }
+  },
+  async mounted(){
+    const result = await axios.get('http://localhost:3000/employeelist');
+    console.log(result);
+    this.employeelist = result.data;
+  }
 
 };
 </script>
 <style>
-td {
-  text-align: center;
- 
-}
+
 </style>
