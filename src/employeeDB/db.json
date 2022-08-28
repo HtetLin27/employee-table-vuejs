@@ -1,0 +1,136 @@
+{
+  "employeelist": [
+    {
+      "name": "Ye Min Htun",
+      "userImg": "https://randomuser.me/api/portraits/men/51.jpg",
+      "email": "yeminhtun@better.hr",
+      "phone": "+95351684752",
+      "office": "Yangon Office",
+      "department": "Product Dep",
+      "empCode": "004-342",
+      "position": "Inter",
+      "id": 1
+    },
+    {
+      "name": "Kyi Sin Hsu Thar",
+      "userImg": "https://randomuser.me/api/portraits/women/74.jpg",
+      "email": "kyisinhsutar@better.hr",
+      "phone": "+95954368152",
+      "office": "Yangon Office",
+      "department": "Customer Success",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 2
+    },
+    {
+      "name": "Myat The Chit",
+      "userImg": "https://randomuser.me/api/portraits/women/75.jpg",
+      "email": "myatthechit@better.hr",
+      "phone": "+95594268135",
+      "office": "Yangon Office Sue Lay",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Developer",
+      "id": 3
+    },
+    {
+      "name": "Walter",
+      "userImg": "https://randomuser.me/api/portraits/men/75.jpg",
+      "email": "walter@better.hr",
+      "phone": "+95964268425",
+      "office": "Mandalay Office",
+      "department": "Tech & Development",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 4
+    },
+    {
+      "name": "Johnatan",
+      "userImg": "https://randomuser.me/api/portraits/men/45.jpg",
+      "email": "johnatan@better.hr",
+      "phone": "+95954852014",
+      "office": "Mandalay Office",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Intern",
+      "id": 5
+    },
+    {
+      "name": "Devil",
+      "userImg": "https://randomuser.me/api/portraits/men/9.jpg",
+      "email": "devil@better.hr",
+      "phone": "+95963520261",
+      "office": "Yangon Office",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Manager",
+      "id": 6
+    },
+    {
+      "name": "Mike",
+      "userImg": "https://randomuser.me/api/portraits/men/60.jpg",
+      "email": "mike@better.hr",
+      "phone": "+95956158324",
+      "office": "Yangon Office Sue Lay",
+      "department": "Customer Success",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 7
+    },
+    {
+      "name": "Biden",
+      "userImg": "https://randomuser.me/api/portraits/men/15.jpg",
+      "email": "biden@better.hr",
+      "phone": "+95956325254",
+      "office": "Mandalay Office",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 8
+    },
+    {
+      "name": "Eric",
+      "userImg": "https://randomuser.me/api/portraits/men/34.jpg",
+      "email": "eric@better.hr",
+      "phone": "+95987456320",
+      "office": "Yangon Office",
+      "department": "Marketing Management",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 9
+    },
+    {
+      "name": "Elanor",
+      "userImg": "https://randomuser.me/api/portraits/men/92.jpg",
+      "email": "elanor@better.hr",
+      "phone": "+95954123698",
+      "office": "Yangon Office",
+      "department": "Tech & Development",
+      "empCode": "004-342",
+      "position": "Trainee",
+      "id": 10
+    },
+    {
+      "name": "Wilson",
+      "userImg": "https://randomuser.me/api/portraits/men/1.jpg",
+      "email": "wilson@better.hr",
+      "phone": "+95698453201",
+      "office": "Mandalay Office",
+      "department": "Customer Success",
+      "empCode": "004-342",
+      "position": "Manager",
+      "id": 11
+    },
+    {
+      "name": "Luke",
+      "userImg": "https://randomuser.me/api/portraits/men/57.jpg",
+      "email": "luke@better.hr",
+      "phone": "+95635410203",
+      "office": "Yangon Office",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Marketing",
+      "id": 12
+    }
+  ]
+}

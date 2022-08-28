@@ -38,7 +38,7 @@ export default {
 
 <style>
 .sidebar{
-  flex: 1;
+  flex: 1.2;
   background-color:  #f5f6fa;
 
 }
@@ -50,12 +50,14 @@ nav{
   
   }
 .logo{
+  padding-top: 5px;
+  padding-left: 3px;
   margin-bottom: 15px;
 }
 nav li{
   list-style: none;
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
@@ -68,7 +70,7 @@ nav li:hover{
 }
 .more{
   position: relative;
-  top:-20px;
+  top:-15px;
   left: -3px;
   font-size: 16px;
 }
@@ -78,7 +80,7 @@ nav li:hover{
   border-radius:50%;
 }
 .user-box{
-  margin-top: 25px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;

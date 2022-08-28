@@ -53,12 +53,16 @@ data(){
     display: flex;
     flex: 25;
     flex-direction: column;
+    box-shadow: -10px 0px 7px 0px rgba(230,221,221,0.75);
+    padding-left: 20px;
+
    
  }
  .top-bar{
     display: flex;
     justify-content: space-between;
-    background-color: #cbd6ce;  
+    padding: 5px;
+    margin-bottom: 5px;
  }
  .top-bar i{
     font-size: 20px;
@@ -68,6 +72,7 @@ data(){
  .left-topbar{
     display: flex;
     align-items: center;
+   
  }
  .right-topbar{
     display: flex;
@@ -76,18 +81,21 @@ data(){
  .top-bar i:hover{
     color:#4cd137 ;
 
-
  }
  .arrow-icon{
     color:#4cd137 ;
     margin-right: 15px;
     margin-left: 15px;
     cursor: pointer;
+    font-weight: 300;
  }
  .employee-dir{
+    padding-top: 10px;
     margin-right: 50px;
+    text-align: center;
     cursor: pointer;
     font-size: 18px;
+    
  }
  .filter-icon{
     margin-right: 30px;
