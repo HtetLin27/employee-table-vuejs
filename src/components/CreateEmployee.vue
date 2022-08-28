@@ -69,9 +69,13 @@
 
       <div class="row btn-group">
         <div class="col-md-12">
-            <button @click=setEmployee class="create-btn"><span>Create</span> <i class="fa-solid fa-user-plus"></i></button>
-        
-            <button class="cancel-btn "><span>Cancel</span> <i class="fa-solid fa-xmark"></i></button>
+          <button @click="setEmployee" class="create-btn">
+            <span>Create</span> <i class="fa-solid fa-user-plus"></i>
+          </button>
+
+          <button class="cancel-btn">
+            <span>Cancel</span> <i class="fa-solid fa-xmark"></i>
+          </button>
         </div>
       </div>
     </form>
@@ -152,7 +156,6 @@ export default {
 }
 .employee-create-box input,
 .employee-create-box select {
-  /* margin: 5px; */
   margin-bottom: 20px;
   width: 255px;
   height: 45px;
@@ -160,14 +163,12 @@ export default {
   font-size: 16px;
   padding: 10px;
 }
-/* .employee-create-box select{
-    margin: 5px;
-} */
+
 .btn-group {
   padding-top: 15px;
 }
 .create-btn {
-  margin-left: 235px ;
+  margin-left: 235px;
   margin-right: 15px;
   padding: 10px;
   width: 150px;
