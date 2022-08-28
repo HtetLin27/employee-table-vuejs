@@ -74,16 +74,6 @@
             <button class="cancel-btn "><span>Cancel</span> <i class="fa-solid fa-xmark"></i></button>
         </div>
       </div>
-
-      <!-- <div class="row btn-group">
-    
-          <div class="col-md-6">
-        <button @click=setEmployee class="create-btn"><span>Create</span> <i class="fa-solid fa-user-plus"></i></button>
-    </div>
-    <div class="col-md-6">
-        <button class="cancel-btn "><span>Cancel</span> <i class="fa-solid fa-xmark"></i></button>
-    </div>
-       </div> -->
     </form>
   </div>
 </template>

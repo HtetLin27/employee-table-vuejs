@@ -2,7 +2,7 @@
 <div class="sidebar">
 <img class="logo" width="60" height="60" src="../assets/BHlogo.png"/>
 
-<nav>
+<nav class="sidebar-nav">
   <li><i class="fa-solid fa-desktop"></i></li>
   <li><i class="fa-regular fa-clock"></i></li>
   <li><i class="fa-solid fa-briefcase"></i></li>
@@ -42,11 +42,10 @@ export default {
   background-color:  #f5f6fa;
 
 }
-nav{
+.sidebar-nav{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   
   }
 .logo{
@@ -54,14 +53,14 @@ nav{
   padding-left: 3px;
   margin-bottom: 15px;
 }
-nav li{
+.sidebar-nav li{
   list-style: none;
   font-size: 22px;
   margin-bottom: 10px;
   cursor: pointer;
 }
 
-nav li:hover{
+.sidebar-nav li:hover{
   color: #4cd137;
 
 }

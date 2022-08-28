@@ -131,6 +131,17 @@
       "empCode": "004-342",
       "position": "Marketing",
       "id": 12
+    },
+    {
+      "name": "Htet Lynn Ko",
+      "userImg": "https://randomuser.me/api/portraits/men/17.jpg",
+      "email": "htetlynnko@better.hr",
+      "phone": "+95958412365",
+      "office": "Yangon Office",
+      "department": "Development",
+      "empCode": "004-342",
+      "position": "Developer",
+      "id": 13
     }
   ]
 }

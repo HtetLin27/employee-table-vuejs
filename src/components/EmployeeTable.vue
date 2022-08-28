@@ -36,6 +36,37 @@
     </tbody>
   </table>
  </div>
+ <div class="pagination-footer">
+ 
+  <div class="dropdown per-page">
+  <button class="btn  btn-md btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    50/Page
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">100</a></li>
+    <li><a class="dropdown-item" href="#">150</a></li>
+    <li><a class="dropdown-item" href="#">200</a></li>
+  </ul>
+</div>
+ <nav aria-label="Page navigation example pag-nav ">
+  <ul class="pagination pagination-md ">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</div>
+
  
 </template>
 
@@ -107,36 +138,19 @@ input[type=checkbox]{
   accent-color: #23d990;
   background-color: #fff;
 }
-/* input[type=checkbox]::before{
-  content: "\2714";
-  position: absolute;
-  top: -2px;
-  border: 0.1em solid #000;
-  display: inline-block;
-  border-radius: 0.2em;
-  padding-left: 0.2em;
-  padding-bottom:0.3em ;
-  width: 1em;
-  height: 1em;
-  color: transparent;
-  vertical-align: bottom;
-
+.pagination-footer{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
 }
-input[type=checkbox]:checked::before{
-  background-color: mediumseagreen;
-  border-color: mediumseagreen;
-  color: #fff;
-} */
+.per-page{
+  margin-right: 50px;
+}
+.pag-nav{
+  margin-right: 100px;
+}
+
+
+
 </style>
 
-<!-- UNICODEU+02212
-HEX CODE&#x2212;
-HTML CODE&#8722;
-HTML ENTITY&minus;
-CSS CODE\2212 -->
-
-<!-- UNICODEU+02714
-HEX CODE&#x2714;
-HTML CODE&#10004;
-HTML ENTITY—
-CSS CODE\2714 -->
